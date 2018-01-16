@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="WebsitesChecker">
+        
+    <wb-module deploy-name="website-checker-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="WebsitesChecker"/>
+                
         <property name="java-output-path" value="/WebsitesChecker/build/classes"/>
+        <property name="context-root" value="website-checker"/>
+            
     </wb-module>
+    
 </project-modules>
